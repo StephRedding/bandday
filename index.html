@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--link to your stylesheet-->
+		<link href="stylesheet.css" rel="stylesheet" type="text/css">
+		<title>BAND DAY</title>
+		
+		<!--link to your fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		
+		<!--load jQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		
+				
+	</head>
+	<body>
+		<!--add the menu-->
+		<div class="nav">
+				<a href="http://www.attheindianafair.com/" target="_blank">AT THE INDIANA FAIR</a>
+				<a href="#bandday">BAND DAY</a>
+				<a href="#notaonemanband">Not a one man band</a>
+				<a href="#spiritofmuncie">Spirit of Muncie</a>
+		</div>
+		<!--Add for the menu, according to skrollr-->
+		<div id="skrollr-body">
+		<div class="container">
+			<div class="hero" id="bandday" data-bottom-top="background-position:50% 75%;" data-top-bottom="background-position:50% 25%;">
+				<h1>BAND DAY</h>
+				<h3>At the Indiana Fair</h3>
+			</div>
+		</div>
+			<div class="video" id="notaonemanband">
+					<h1>NOT A ONE MAN BAND</h1>
+					<center><video controls width="70%">
+  						<source src="video/not-a-one-man-band.mp4" type="video/mp4">
+					</video></center>
+			</div>
+			<div class="story" id="spiritofmuncie" data-bottom-top="background-position:50% 75%;" data-top-bottom="background-position:50% 25%;">
+				<h1>SPIRIT OF MUNCIE</h1>
+				<h3>Newly merged high school takes top prize at Band Day</h3>
+				<h5>By Lauren Hughes</h5>
+			</div>
+			<div class="content">
+					<div class="intro">
+					<p><b>And then there were 16.</b></p>
+					</div>
+				<p>Evening performances began for the final round of the Music Travel Consultants State Fair Band Competition Saturday night. The energy in the air was even livelier than the morning preliminary rounds.</p>
+				<p>Muncie Central High School, of the top 16 finalists, made its way out to the center of the front track as members organized themselves for their final performance of the night. It was an opportunity for the group to correct its mistakes from earlier and make one last final impression before judging.</p>
+				<p>Muncie fans in the Grandstands clapped nonstop as they stood on their feet and chanted for their hometown band. The contest announcer came on the microphone as the band got situated and said, &ldquo;I think there are some Muncie people here.&rdquo; The cheering got even louder.</p>
+				 	<blockquote data-bottom-top="opacity:0;" data-center-top="opacity:1;">
+						"We are the Spirit of Muncie. This is our verse."
+					</blockquote>
+				<p>Their performance, titled &ldquo;Anatomy of Composition: Poetry, Art and Music,&rdquo; began as the lead conductor standing on the podium began waving his arm in precise motions. Formations of both band and color guard members moved swiftly but gracefully as they glided across the lined track. Band members moved in sync with every stride. Color guard girls danced elegantly as they twirled flags with multitudes of colors.</p>
+				<p>One of the band members toward the back of the track came on speaker, saying, &ldquo;We are the Spirit of Muncie. This is our verse.&rdquo; The final line of notes came to an end and the group dropped their instruments in front of their chests and ended with a &ldquo;hooah!&rdquo; A rave of cheers and applause filled the area as Muncie fans rose to their feet.</p>
+				<p>After such an exciting performance, color guard members hugged each other tightly and took pictures together.</p>
+				<p>&ldquo;It was amazing. It was the best one all season,&rdquo; said recent Muncie graduate Cailey Hathaway, a member of color guard.</p>
+				<p>Back in their camp area, the entire group celebrated. Muncie Central band director Jeramiah Bowman made his way through his band as he hyped up his group to keep the energy going.</p>
+				<p>Finally 11 p.m. arrived and it was time for the awards. In the far west end of the front track, band groups sprinted to the center stage.</p>
+				<p>There was a drastic contrast between how bands waited for the awards to start. Some jumped around yelling out songs and chants. Others, like Muncie Central, stood precise, silent formations.</p>
+				<p>The announcer reached the podium and began announcing the winners starting with 16th place. At the top five, the members of Muncie Central bowed their heads and held each other&prime;s hands. Fans started to chant as the the top two places were reached. Then there was a slight pause, the second-place winner was announced, and Muncie Central began to celebrate, knowing that they had won first place.</p>
+				<p>Tears of joy rolled down the faces of color guard girls as they fell into each other&prime;s arm and to the ground, hugging each other. Their eye makeup now smeared down their cheeks. Band members jumped up and down, group hugging and high-fiving one another. As the giant trophy arrived in the presence of the rest of the group on the track, they celebrated with the prize raised high above their heads.</p>
+				<p>&ldquo;We had hoped to be great. We never focused on winning,&rdquo; said color guard director Rhonda Reynolds. &ldquo;We just focused on getting a show put together in a short amount of time. For the outcome to be a win&ndash;fantastic.&rdquo;</p>
+				<p><i>Lauren Hughes is a writer for BSU Journalism at the Fair, a Ball State University immersive-learning project placing 25 student journalists at the heart of the Midway to tell the weird and wonderful stories of the 2014 Indiana State Fair.</i></p>
+			</div>
+			<script type="text/javascript" src="skrollr.min.js"></script>
+			<script type="text/javascript" src="skrollr.menu.min.js"></script>
+    		<script type="text/javascript">
+    		var s = skrollr.init();
+   		 	skrollr.menu.init(s, {
+   	 		//skrollr will smoothly animate to the new position using `animateTo`.
+    		animate: true,
+
+    		//The easing function to use.
+    		easing: 'sqrt',
+
+    		//Multiply your data-[offset] values so they match those set in skrollr.init
+    		scale: 2,
+
+    		//How long the animation should take in ms.
+    		duration: function(currentTop, targetTop) {
+        	//By default, the duration is hardcoded at 500ms.
+        	return 500;
+
+        	//But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+        	//return Math.abs(currentTop - targetTop) * 10;
+    		},
+
+    		//If you pass a handleLink function you'll disable `data-menu-top` and `data-menu-offset`.
+    		//You are in control where skrollr will scroll to. You get the clicked link as a parameter and are expected to return a number.
+    		//handleLink: function(link) {
+    		//    return 400;//Hardcoding 400 doesn't make much sense.
+    		//},
+
+    		//By default skrollr-menu will only react to links whose href attribute contains a hash and nothing more, e.g. `href="#foo"`.
+    		//If you enable `complexLinks`, skrollr-menu also reacts to absolute and relative URLs which have a hash part.
+    		//The following will all work (if the user is on the correct page):
+    		//http://example.com/currentPage/#foo
+    		//http://example.com/currentDir/currentPage.html?foo=bar#foo
+    		///?foo=bar#foo
+   			complexLinks: false
+			});
+    	</script>
+	</body>
+</html>
